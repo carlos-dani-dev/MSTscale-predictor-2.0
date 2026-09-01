@@ -10,7 +10,7 @@ from utils.extract_skin import extract_skin_mask
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 FINETUNED_FACENET_CHECKPOINT = "finetuned-facenet/facenet_stw_finetuned.pt"
-EMBEDDER_BACKEND = "facenetft_skt"
+
 COLOR_GRID_SIZE = "4"    # grid espacial p/ stats de cor
 PAPER_HIST_BINS = "256"  # bins p/ histogramas do paper
 USE_SKIN_MASK = "1"
@@ -307,10 +307,10 @@ BACKEND_ALIASES = {
 
 
 def canonical_backend_name(backend=None):
-    """Nome canônico do backend, independente do alias usado na CLI/env."""
-    key = (backend or EMBEDDER_BACKEND).lower()
+    
+    key = backend
     if key not in BACKEND_ALIASES:
-        raise ValueError(f"EMBEDDER_BACKEND desconhecido: {backend!r}")
+        raise ValueError(f"EMBEDDER desconhecido: {backend!r}")
     return BACKEND_ALIASES[key]
 
 
