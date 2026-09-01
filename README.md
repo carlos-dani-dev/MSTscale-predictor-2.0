@@ -33,3 +33,5 @@ Do artigo 1, carregamos:
 
 ### Definição da arquitetura
 O pipeline proposto culminou em resultados robustos que o determinaram o atual **estado da arte em classificação de tom de pele em imagens faciais usando a escala Monk Skin Tone**:
+
+<img src="images/vectorization.png" alt="Vetorização" width="500"> <img src="images/dnn.png" alt="dnn" width="500">
