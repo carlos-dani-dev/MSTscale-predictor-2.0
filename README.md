@@ -6,9 +6,9 @@ SOTA Monk Skin Tone scale prediction
 Foi desenvolvida pelo Dr. Ellis P. Monk Jr, pesquisador da Harvard University.
 Ela é, atualmente, a escala de classificação de tons de pele reconhecidamente
 mais inclusiva e adequada para treinamento de modelos ML.
-
+<div align="center">
 <img width="300" height="166" alt="image" style="alin-items: center;" src="https://github.com/user-attachments/assets/cd9f565c-4a49-41d2-898f-378b049bae99" />
-
+</div>
 É uma escala contínua de 10 cores, desenhada especificamente para representar
 variações de tom de pele sobre populações diversas.
 
@@ -32,4 +32,7 @@ Do artigo 1, carregamos:
 - A arquitetura base de classificação de atributos faciais, composta por um vetorizador FaceNet e uma dnn chamada de Mac, Massive Attribute Classifier
 
 ### Definição da arquitetura
-O pipeline proposto culminou em resultados robustos que o determinaram o atual **estado da arte em classificação de tom de pele em imagens faciais usando a escala Monk Skin Tone**:
+O pipeline proposto culminou em resultados robustos que o determinaram o atual **estado da arte em classificação de tom de pele em imagens faciais usando a escala Monk Skin Tone** (clique para ver em detalhes):
+<div align="center">
+<img src="images/vectorization.png" alt="Vetorização" width="350"> <img src="images/dnn.png" alt="dnn" width="350">
+</div>
