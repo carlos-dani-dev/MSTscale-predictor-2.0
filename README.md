@@ -32,6 +32,7 @@ Do artigo 1, carregamos:
 - A arquitetura base de classificação de atributos faciais, composta por um vetorizador FaceNet e uma dnn chamada de Mac, Massive Attribute Classifier
 
 ### Definição da arquitetura
-O pipeline proposto culminou em resultados robustos que o determinaram o atual **estado da arte em classificação de tom de pele em imagens faciais usando a escala Monk Skin Tone**:
-
-<img src="images/vectorization.png" alt="Vetorização" width="500"> <img src="images/dnn.png" alt="dnn" width="500">
+O pipeline proposto culminou em resultados robustos que o determinaram o atual **estado da arte em classificação de tom de pele em imagens faciais usando a escala Monk Skin Tone** (clique para ver em detalhes):
+<div align="center">
+<img src="images/vectorization.png" alt="Vetorização" width="350"> <img src="images/dnn.png" alt="dnn" width="350">
+</div>
