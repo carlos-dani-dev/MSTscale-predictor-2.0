@@ -145,7 +145,7 @@ def build_train_mac_args(hp):
 
 
 def build_mac_on_ccv2_args(hp):
-    """Converte os hiperparâmetros em argumentos CLI para o mac_on_ccv2.py."""
+    
     args = []
 
     load_dotenv(override=True)
@@ -206,6 +206,6 @@ def run_step(script, env_overrides=None, args_builder=None):
 
 if __name__ == "__main__":
 
-    run_step("vect_dataset.py", args_builder=build_vect_args)
-    run_step("train_mac.py", args_builder=build_train_mac_args)
-    run_step("mac_on_ccv2.py", args_builder=build_mac_on_ccv2_args)
+    run_step("vect.py", args_builder=build_vect_args)
+    run_step("dnn.py", args_builder=build_train_mac_args)
+    run_step("ccv2.py", args_builder=build_mac_on_ccv2_args)
