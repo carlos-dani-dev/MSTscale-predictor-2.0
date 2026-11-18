@@ -1,0 +1,8 @@
+datasets_vect/stw_facenetft_skt_full.pkl
+utils/all_annotated_data.csv
+datasets_vect/stw_missing_files.txt
+.env
+images
+checkpoints
+dataset*
+utils
